@@ -17,7 +17,7 @@ import com.example.GSK.Services.UserService;
 
 @RestController
 @RequestMapping("/api/produit/")
-@CrossOrigin("*")
+@CrossOrigin(origins = "*")
 public class ProduitController {
 	@Autowired
 	private ProduitService produitService;
